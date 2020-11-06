@@ -19,6 +19,8 @@ public class Task4 {
         System.out.println("Радиус круга: " + roundSquare);
         System.out.println("Радиус сегмента: " + segmentSquare);
         System.out.println("Разница в площади: " + roundSquare / segmentSquare);
+        
+        scanner.close();
     }
 
 }
