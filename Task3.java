@@ -10,5 +10,7 @@ public class Task3 {
         System.out.println("Порядковый номер: " + (int) symbol);
         System.out.println("Предыдущий символ: " + ((char) (symbol - 1)));
         System.out.println("Следующий символ: " + ((char) (symbol + 1)));
+        
+        scanner.close();
     }
 }
