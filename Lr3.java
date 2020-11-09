@@ -1,3 +1,5 @@
+package lr3;
+
 public class Lr3 {
 
     public static void main(String[] args) {
@@ -5,9 +7,9 @@ public class Lr3 {
 
         Rectangle[] rectangles = new Rectangle[size];
 
-        Rectangle rectangle1 = new Rectangle(5, 4);
+        Rectangle rectangle1 = new Rectangle(5f, 4f);
         Rectangle rectangle2 = new Rectangle(3.5f);
-        Rectangle rectangle3 = new Rectangle(4, 4.8f);
+        Rectangle rectangle3 = new Rectangle(4f, 4.8f);
 
         rectangles[0] = rectangle1;
         rectangles[1] = rectangle2;
