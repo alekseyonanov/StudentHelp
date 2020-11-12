@@ -1,5 +1,3 @@
-package lab3;
-
 public class Lr3 {
 
     public static void main(String[] args) {
