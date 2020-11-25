@@ -63,14 +63,12 @@ class Server extends Thread
             byte[] buf = new byte[64*1024];
             // читаем 64кб от клиента, результат - кол-во реально принятых данных
             int r = is.read(buf);
-            System.out.println(r);
 
             // создаём строку, содержащую полученную от клиента информацию
             double x = Double.parseDouble(new String(buf, 0, r));
             buf = new byte[64*1024];
 
             r = is.read(buf);
-            System.out.println(r);
 
             int n = Integer.parseInt(new String(buf, 0, r));
 
